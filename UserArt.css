@@ -1,0 +1,81 @@
+body{
+	background-color: #eee;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.aa{
+	background-color: #fff;
+	width: 400px; /* BREITE DES GANZEN FENSTERS */
+    height: 350px;  /* HÖHE DES GANZEN FENSTERS */
+	border-radius: 10px; /* Der Weißer Rahmen wird gerundet */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*padding: 2rem !important;*/
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* Der ganze body wird hier positioniert */
+}
+	
+
+.aa h1{
+    text-align: center; /* Die Überschrift wird mittig Positioniert*/
+    padding: 0 0 20px 0 ; /* Abstand von der Überschrift zum input fenstern */
+    border-bottom: 1px solid silver; /* Linie zwischen überschrift und den rest des Logins  */
+}
+
+.aa form{
+    padding: 0 40px; /* Die Input files werden nach rechts verschoben */
+    box-sizing: border-box;
+}
+
+
+
+.select {
+    margin-top:20px;
+    margin-left: 16%;
+    margin-bottom: 60px;
+    font-weight: 700;
+    height: 35px;
+    width: 10px;
+    padding: 0px 15px;
+    line-height: 22px;
+    font-size: 16;
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+
+
+.select option{
+    font-weight: bold;
+}
+
+
+
+.L{
+    width: 60%; /*verlängert den Login Button */
+    height: 40px; /*Macht den login button breiter */
+    border: 1px solid; /*Fügt den login button einen rahmen ein */
+    background: #ccc;
+    border-radius: 25px; /* macht den button runder */
+    font-size: 18px;
+    color: white; /* macht die schrift weiß */
+    font-weight: 700; /*Login schrift wird fett */
+    cursor: pointer; /* CURSOR ist nun ein zeigefinger */
+    outline: none; /*KIENEN rahmen */
+    margin-left: 20%;
+    margin-top: 30px;
+
+    
+}
+
+.L:hover{
+    border-color: #ccc; /*wen man auf den button klickt dann wird er etwas größer*/
+    transition: 0.5s;
+
+}

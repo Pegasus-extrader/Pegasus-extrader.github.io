@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+  
+  }
+  
+  
+  body {
+    background-color: #F7F7F7;
+  }
+  
+  
+  
+  /*Das ist die graue linie beim Header  */
+  .topnav  {
+    background: #1F1F21;
+    height: 60px;
+  }
+  
+  
+  /* Die grundeinstellung der menü leiste des Headers */
+  
+  .topnav a {
+    float: right;
+    color: #8E8E93;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    transition: all 0.3s ease 0s;
+
+  
+  }
+  
+  /* Die Grundeinstellung der Überschrift */
+  .topnav label{
+    color: #8E8E93;
+    position: left;
+    line-height: 50px;
+    font-size: large;
+    padding: 0 50px;
+    font-weight: bold;
+  }
+  
+  
+  /* Dient dazu wen man auf die rechten MENÜ header klickt das sie ihre Farbe ändern */
+  .topnav a:hover{
+    color:#C7C7CC;
+  }
+
+
+
+  /*
+    .topnav label{
+    color: #8E8E93;
+    position: left;
+    line-height: 50px;
+    font-size: large;
+    padding: 0 50px;
+    font-weight: bold;
+  }
+  
+    .topnav a {
+  
+    float: right;
+    color: #8E8E93;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    transition: all 0.3s ease 0s;
+  
+  }
+  
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
